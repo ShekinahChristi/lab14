@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  background-color:green;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  header {
+  background-color:red;
+  text-align: center;
+  border: 2px solid black;
+  
+  }
+  
+  nav {
+    margin: auto;
+    padding: 1rem 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 1rem;
+    }
+  
+  nav li a {
+    border: 5px solid black;
+    color: black;
+    
+  }
+  main {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  main img {
+    max-width: 200px;
+    max-height: 200px;
+    justify-content: space-between;
+    border: 2px solid black;
+  }
